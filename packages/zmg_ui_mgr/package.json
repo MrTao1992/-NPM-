@@ -1,0 +1,40 @@
+{
+  "name": "zmg_ui_mgr",
+  "version": "0.0.3000852",
+  "description": "项目模板",
+  "keywords": [
+    "zmg_ui_mgr"
+  ],
+  "author": "DESKTOP-LP244C2\\22471 <2247121604@qq.com>",
+  "homepage": "https://gitlab.zmaxis.com/game/web/zm_libs.git",
+  "license": "ISC",
+  "main": "dist/cjs/lib/index.js",
+  "module": "dist/es/lib/index.js",
+  "typings": "dist/cjs/types",
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "libs",
+    "src",
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.zmops.cc"
+  },
+  "repository": "https://gitlab.zmaxis.com/game/web/zm_libs.git",
+  "scripts": {
+    "build": "zmcli build -f cjs",
+    "watch:cjs": "zmcli build -w true -f cjs",
+    "build:cjs": "zmcli build -f cjs",
+    "build:es": "zmcli build -f es",
+    "build:umd": "zmcli build -f umd:zmgUIMgr",
+    "build:iife": "zmcli build -f iife:zmgUIMgr",
+    "build:system": "zmcli build -f system:zmgUIMgr",
+    "build:all": "npm run build:cjs&&npm run build:es&&npm run build:umd&&npm run build:iife"
+  },
+  "devDependencies": {},
+  "gitHead": "c10fc0651040b6254236c45f02f2a53ce27a329c",
+  "dependencies": {}
+}

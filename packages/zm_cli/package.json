@@ -1,0 +1,49 @@
+{
+  "name": "zmpark_cli",
+  "version": "0.0.4",
+  "description": "发布脚手架",
+  "keywords": [
+    "zmpark_cli"
+  ],
+  "author": "DESKTOP-LP244C2\\22471 <2247121604@qq.com>",
+  "homepage": "https://gitlab.zmaxis.com/game/web/zm_libs.git",
+  "license": "ISC",
+  "main": "./zm-cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "cli.js",
+    "utils.js",
+    "README.md",
+    "rollupdo.js"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.zmops.cc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.zmaxis.com/game/web/zm_libs.git"
+  },
+  "dependencies": {
+    "cmdjs": "^0.0.14",
+    "colors": "^1.4.0",
+    "commander": "^4.1.0",
+    "dts-generator": "^3.0.0",
+    "matched": "^5.0.0",
+    "npm-dts": "^1.3.4",
+    "rollup": "^2.26.11",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "~0.21.2",
+    "typescript": "^3.8.3"
+  },
+  "bin": {
+    "zmcli": "zm-cli.js"
+  },
+  "scripts": {
+    "watch": "zmcli watch"
+  },
+  "gitHead": "c10fc0651040b6254236c45f02f2a53ce27a329c"
+}

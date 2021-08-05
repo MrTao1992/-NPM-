@@ -1,0 +1,35 @@
+#Config 范例:
+[
+-----{
+--------"bu": "2",
+--------"appId": "12356",
+--------"appName": "掌门少儿",
+--------"appCode": "",
+--------"server": {
+------------"fat": {
+----------------"env": "fat",
+----------------"path": "zmpark",
+----------------"gate": "https://kids-app-gateway-test.zmlearn.com",
+----------------"server": "https://test.hdkj.zmlearn.com"
+------------},
+------------"test": {
+----------------"env": "test",
+----------------"path": "zmpark",
+----------------"gate": "https://kids-app-gateway-test.zmlearn.com",
+----------------"server": "https://test.hdkj.zmlearn.com"
+------------},
+------------"uat": {
+----------------"env": "uat",
+----------------"path": "zmpark",
+----------------"gate": "https://kids-app-gateway-test.zmlearn.com",
+----------------"server": "https://test.hdkj.zmlearn.com"
+------------},
+------------"prod": {
+----------------"env": "prod",
+----------------"path": "zmpark",
+----------------"gate": "https://kids-app-gateway-test.zmlearn.com",
+----------------"server": "https://test.hdkj.zmlearn.com"
+------------}
+--------}
+----}
+]

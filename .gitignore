@@ -1,0 +1,4 @@
+node_modules/
+pageages/*/*/.bin
+**/*/node_modules/
+__tests__

@@ -1,0 +1,22 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "commitizen": "^4.2.2",
+    "cz-lerna-changelog": "^2.0.3",
+    "husky": "^4.3.6",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.5.3",
+    "standard": "^16.0.3"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitlab.zmaxis.com:game/web/zm_libs.git",
+  "author": "lulongfei <lulongfei@mu77.com>",
+  "license": "MIT"
+}

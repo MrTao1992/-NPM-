@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "version": {
+      "conventionalCommits": true
+    }
+  },
+  "ignoreChanges": [
+    "**/*.md"
+  ],
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "version": "0.0.2"
+}
